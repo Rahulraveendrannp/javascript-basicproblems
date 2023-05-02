@@ -33,7 +33,7 @@ function toCamelCase(str) {
 function chopString(str,n) {
      let arr=[];
      let index=0;
-     for( let i=0;i<str.length;i+=2){
+     for( let i=0;i<str.length;i+=n){
 
         arr.push(str.slice(index,index+n))
         index+=n;
